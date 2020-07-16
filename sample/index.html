@@ -1,0 +1,195 @@
+<html>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>CRISP Framework</title>
+	<head>
+		<title>Crisp Framework</title>
+		<link rel="stylesheet" href="frmwrk-theme.css">
+		<link rel="stylesheet" href="frmwrk.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="./forms/form-style.css">
+		<script src="./components/copy-right.js"></script>
+	</head>
+	<body>
+
+		<nav class="navbar dark">
+			<ul>
+				<li class="logo"><a href="#"><h1>LOGO</h1></a></li>
+				<li><a href="#">Product</a></li>
+			</ul>
+			<ul>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Dropdown</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+
+		<!-- <h1 class="flex center-hor" style="padding: 10px; font-weight: bold;">Welcome to CRISP.css Framework</h1> -->
+		<h1 class="flex center-hor" style="padding: 10px; font-weight: bold;">Welcome to Bootable Framework</h1>
+
+		<div class="container">
+			<section>
+				<h1>Colors</h1>
+				<div class="color-grid">
+					<div class="color-box shadow">Background</div>
+					<div class="color-box">Forground</div>
+					<div class="color-box">Dark</div>
+					<div class="color-box">Light</div>
+					<div class="color-box">md-Light</div>
+					<div class="color-box">md-Dark</div>
+					<div class="color-box">Primary</div>
+					<div class="color-box">Info</div>
+					<div class="color-box">Success</div>
+					<div class="color-box">Danger</div>
+					<div class="color-box">Callout</div>
+					<div class="color-box">None</div>
+				</div>
+			</section>
+			
+			<section class="color-grid">
+				<h1>H1 Heading</h1>
+				<h2>H2 Heading</h2>
+				<h3>H3 Heading</h3>
+				<h4>H4 Heading</h4>
+				<h5>H5 Heading</h5>
+				<h6>H6 Heading</h6>
+			</section>
+			
+			<section>
+				<h1>Paragraph styles</h1>
+				<p>This is a <strong>Stronk</strong> tag<br> <br> 
+				This is <em>Italic</em> tag
+				</p>
+			</section>
+			
+			<section class="button-types">
+
+				<h2>Buttons</h2>
+
+				<div>
+					<p>Default</p><br>
+					<button >Submit</button>
+				</div>
+
+				<div>
+					<p>Delete</p><br>
+					<button 
+						style="--weight: bold; --background-color: #f85353;"
+					>Delete</button>
+				</div>
+
+				<div>
+					<p>Success</p><br>
+					<button 
+						style="--background-color: #6bc253;"
+					>Success</button>
+				</div>
+			</section>
+
+			<section>
+				<h2>Button Groups</h2>
+				<div class="btn-grp">
+					<button>Button 1</button>
+					<button>Button 2</button>
+					<button>Button 3</button>
+				</div>
+			</section>
+
+			<section>
+				<h2>Warning Types</h2>
+				<div class="alert-danger">This is a Danger alert</div>
+				<div class="alert-success">This is a Success alert</div>
+				<div class="alert-warning">This is a Warning alert</div>
+			</section>
+			
+			<section>
+				<h2>Links</h2>
+				<p>This <a href="#">is how</a> a few <a href="#">links</a> are displayed</p>
+			</section>
+
+			<section style="display: table;">
+				<h2>Field and Labels</h2>
+				<div class="field field--block">
+					<input class="field__input input input--text input--required" id="1" type="text" />
+					<label class="field__label label--required" for="1">Text</label>
+				</div>
+			</section>
+
+			<section style="display: table;">
+				<h2>Forms Groups</h2>
+				<div class="field field--block">
+					<input class="field__input input input--text input--required" id="1" type="text" />
+					<label class="field__label label--required" for="1">Full Name</label>
+				</div>
+				<div class="field field--half">
+					<input class="field__input input input--text" id="3" type="text" />
+					<label class="field__label" for="3">Email</label>		
+				</div>
+				
+				<div class="field field--half">
+					<input class="field__input input input--text" id="4" type="text" />
+					<label class="field__label" for="4">Company</label>	
+				</div>
+				
+				<div class="field field--three-quarter">
+					<input class="field__input input input--text" id="5" type="text" />
+					<label class="field__label" for="5">Address</label>	
+				</div>
+				
+				<div class="field field--quarter">
+					<input class="field__input input input--text" id="6" type="text" />
+					<label class="field__label" for="6">Zip code</label>
+				</div>
+				
+				<div class="field field--block">
+					<textarea class="field__input input input--textarea" id="7" type="text"></textarea>
+					<label class="field__label" for="7">Comments</label>
+				</div>
+				<div class="field field--block form-action">
+					<button class="xl-rounded btn" style="background: #4CAF58; float: right;">Submit &rarr;</button>
+				</div>
+			</section>
+
+			<section>
+				<h2>Flex elements</h2>
+				<h6>These items are using flex-box to line up in rows and center verically and horizontally</h6>
+				<div class="flex-row center-hor center-ver" style="justify-content: space-around;">
+					<div style="width: 100px; height: 100px; background: #f85353;"></div>
+					<div style="width: 100px; height: 100px; background: darkcyan;"></div>
+					<div style="width: 100px; height: 100px; background: #5452c2;"></div>
+				</div>
+			</section>
+
+			<section>
+				<h2>Custom Components/Elements</h2>
+				<!-- <div>
+					<h4>Copyright Tag component</h4>
+					<copyright-tag name="Overlord"></copyright-tag>
+				</div> -->
+				<table id=custom-components>
+					<tr>
+						<th>Name</th>
+						<th>Tag</th>
+						<th>Demo</th>
+					</tr>
+					<tr>
+						<td>Copyright</td>
+						<td> &lt;copyright &gt;&lt;/copyright&gt; </td>
+						<td><copyright-tag></copyright-tag></td>
+					</tr>
+					<tr>
+						<td>Copyright</td>
+						<td> &lt;copyright &gt;&lt;/copyright&gt; </td>
+						<td><copyright-tag></copyright-tag></td>
+					</tr>
+					<tr>
+						<td>Copyright</td>
+						<td> &lt;copyright &gt;&lt;/copyright&gt; </td>
+						<td><copyright-tag></copyright-tag></td>
+					</tr>
+				</table>
+			</section>
+
+		</div>
+	</body>
+</html>
